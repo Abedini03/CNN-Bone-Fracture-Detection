@@ -174,19 +174,20 @@ Plots were used to compare model performance.
 ---
 
 ## Results
-- **Baseline Model**: High training and validation accuracy (~0.9) with low loss (~0.1), but slight fluctuations in validation loss indicate marginally less stable generalization.  
+- **Baseline Model**: High training and validation accuracy (0.97) with low loss (0.1), but slight fluctuations in validation loss indicate marginally less stable generalization.  
   ![baseline_model](baseline_model.png)  
 
-- **Augmented Model**: Achieves high validation accuracy (~0.9) and low loss (~0.1) with more stable generalization, as seen in smoother validation loss trends compared to the baseline model.  
+- **Augmented Model**: Achieves high validation accuracy (0.89) and low loss (0.3) with more stable generalization, as seen in smoother validation loss trends compared to the baseline model.  
   ![Augmented Model](AugmentedModel.png)
 
 ---
 
 ## Conclusions
 - Developed a working CNN classifier for bone fracture detection.  
-- Boosted model performance using data augmentation.  
+- Applied data augmentation.  
 - Preprocessed data by removing corrupted files.  
 - Built a reusable image classification pipeline.
+- Augmentation did not particularly help for more generalization.
 
 ---
 
