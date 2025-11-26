@@ -178,6 +178,7 @@ Plots were used to compare model performance.
   ![baseline_model](baseline_model.png)  
 
 - **Augmented Model**: Achieves high validation accuracy (0.89) and low loss (0.3), but slight fluctuations in validation loss indicate marginally less stable generalization.
+
   ![Augmented Model](AugmentedModel.png)
 
 ---
